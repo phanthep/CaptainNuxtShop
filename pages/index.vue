@@ -6,7 +6,7 @@
             <v-carousel
               cycle
               cover
-              height="380"
+              height="350"
               hide-delimiter-background
               show-arrows="hover"
             >
@@ -31,14 +31,20 @@
       return {
         items: [          
           {
-            src: '/img/HomeImage.png',
+            src: '/img/carousel/1.png',
           },
           {
-            src: '/img/LoyaltyCard.png',
+            src: '/img/carousel/2.png',
           },
           {
-            src: '/img/Coupon.png',
-          }          
+            src: '/img/carousel/3.png',
+          },
+          {
+            src: '/img/carousel/4.png',
+          },
+          {
+            src: '/img/carousel/5.png',
+          }
         ]
       }
     }    
