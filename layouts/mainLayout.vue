@@ -1,11 +1,13 @@
-<template>
-    <div>   
-      <VApp>
-			  <VMain>
-          <Header/>          
-				    <slot />          
-          <Footer/>
-			  </VMain>
-		  </VApp>                
-    </div>
-  </template>
+<template>  
+  <v-app>
+    <Header/>
+      <slot/>
+    <Footer/>
+  </v-app>
+</template>
+
+<script>
+  export default {
+    data: () => ({ drawer: null }),
+  }
+</script>
